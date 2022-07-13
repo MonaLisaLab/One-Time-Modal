@@ -1,4 +1,7 @@
 # One-Time-Modal
+
+<img width="720" alt="スクリーンショット 2022-07-13 13 45 33" src="https://user-images.githubusercontent.com/83240059/178652625-e08af64d-2435-4567-ad98-008c118e7477.png">
+
 Micro-library for displaying a modal only once.<br>
 
 Use this to display updates and tutorials only once in a hybrid app, or to announce a campaign on a website only once.<br>
