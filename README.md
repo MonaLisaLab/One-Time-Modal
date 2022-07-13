@@ -5,7 +5,9 @@
 Micro-library for displaying a modal only once.<br>
 
 Use this to display updates and tutorials only once in a hybrid app, or to announce a campaign on a website only once.<br>
-Users cannot scroll the background while the modal is displayed.
+Users cannot scroll the background while the modal is displayed.<br><br>
+
+👉<a href="https://toshihidemiyake.github.io/One-Time-Modal-Demo/">DEMO</a>
 
 # Usage
 
