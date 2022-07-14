@@ -11,7 +11,13 @@ Users cannot scroll the background while the modal is displayed.<br><br>
 
 # Usage
 
-Prepare a container and a modal.
+## install
+
+````html
+<script src="one-time-modal.js" defer></script>
+````
+
+## Prepare a container and a modal.
 ````html
 
 <div class="OTmodal-wrapper">
@@ -22,19 +28,24 @@ Prepare a container and a modal.
 
 ````
 
-Show a modal
+## Show a modal
 ````js
 OneTimeModal()
 ````
 
-Close a modal
+## Close a modal
 ````js
 CloseModal()
 ````
-
+## Reset
 Reset the key and allow the modal to be displayed again. Use for testing.
 ````js
 KeyReset()
+````
+## Tips
+When making changes to the CSS or checking the behavior, it is recommended that the "CLOSE" button be set as follows.
+````html
+<button class="" onclick="CloseModal();KeyReset()">CLOSE</button>
 ````
 
 The modal and container styles are set as follows. Feel free to edit them if you don't like.
